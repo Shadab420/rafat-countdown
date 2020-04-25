@@ -1,9 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-        <script type="text/javascript" src="css/TimeCircles.js"></script>
         <link rel="stylesheet" href="css/TimeCircles.css" />
     </head>
     <body>
@@ -12,6 +10,9 @@
             
             <div id="DateCountdown" data-date="2020-06-15 00:00:00" style="width: 500px; height: 125px; padding: 0px; box-sizing: border-box; background-color: #fff"></div>
         </div>
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="css/TimeCircles.js"></script>
         <script>
             $("#DateCountdown").TimeCircles();
             $("#CountDownTimer").TimeCircles({ time: { Days: { show: false }, Hours: { show: false } }});
